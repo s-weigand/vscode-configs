@@ -1,2 +1,4 @@
 # vscode-configs
-My vs code config for different taks
+My VsCode config for different tasks
+
+The font [Firicico](https://github.com/kosimst/Firicico)
