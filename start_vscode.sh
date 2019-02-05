@@ -1,7 +1,7 @@
 #!/bin/bash
 # Bash Menu Script Example
 
-PS3='Please enter your choice: '
+PS3='Select a project type: '
 options=("LaTeX" "Microcontroler" "WebDev-Frontend" "Quit")
 select opt in "${options[@]}"
 do
