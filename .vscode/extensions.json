@@ -13,8 +13,7 @@
     "aaron-bond.better-comments",
     "ryu1kn.partial-diff",
     "rubymaniac.vscode-paste-and-indent",
-    "igorsbitnev.error-gutters",
     // latex
-    "James-Yu.latex-workshop"
+    "james-yu.latex-workshop"
   ]
 }
