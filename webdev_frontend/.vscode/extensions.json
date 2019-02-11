@@ -39,6 +39,7 @@
     "stringham.move-ts",
     "wallabyjs.quokka-vscode",
     // dev tools
-    "msjsdiag.debugger-for-chrome"
+    "msjsdiag.debugger-for-chrome",
+    "ritwickdey.liveserver"
   ]
 }
