@@ -38,6 +38,7 @@
           //following will be excluded from italics (My theme (Monokai dark) has some defaults I don't want to be in italics)
           "invalid",
           "comment",
+          "variable.parameter.url.css",
           "support.type",
           "storage.type.function.arrow.tsx",
           "keyword.operator",
