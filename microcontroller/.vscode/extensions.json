@@ -3,6 +3,7 @@
   // for the documentation about the extensions.json format
   "recommendations": [
     // general editor style
+    "eamodio.gitlens",
     "robertohuertasm.vscode-icons",
     "gerane.theme-flatlandmonokai",
     "editorconfig.editorconfig",
@@ -13,6 +14,7 @@
     "aaron-bond.better-comments",
     "ryu1kn.partial-diff",
     "rubymaniac.vscode-paste-and-indent",
+    "igorsbitnev.error-gutters",
     "ryanluker.vscode-coverage-gutters",
     // micocontroler extensions
     "platformio.platformio-ide",
