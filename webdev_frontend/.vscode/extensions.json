@@ -14,6 +14,7 @@
     "ryu1kn.partial-diff",
     "rubymaniac.vscode-paste-and-indent",
     "igorsbitnev.error-gutters",
+    "ryanluker.vscode-coverage-gutters",
     // doc generation mainly
     "lextudio.restructuredtext",
     // sass, scss
@@ -25,6 +26,7 @@
     "naumovs.color-highlight",
     // html
     "formulahendry.auto-rename-tag",
+    "hwencc.html-tag-wrapper",
     "Zignd.html-css-class-completion",
     "vincaslt.highlight-matching-tag",
     // ts, js, json related stuff

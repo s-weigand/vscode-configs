@@ -13,6 +13,7 @@
     "aaron-bond.better-comments",
     "ryu1kn.partial-diff",
     "rubymaniac.vscode-paste-and-indent",
+    "ryanluker.vscode-coverage-gutters",
     // micocontroler extensions
     "platformio.platformio-ide",
   ]
