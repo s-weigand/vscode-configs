@@ -3,6 +3,7 @@
   // for the documentation about the extensions.json format
   "recommendations": [
     // general editor style
+    "eamodio.gitlens",
     "robertohuertasm.vscode-icons",
     "gerane.theme-flatlandmonokai",
     "editorconfig.editorconfig",
@@ -13,7 +14,9 @@
     "aaron-bond.better-comments",
     "ryu1kn.partial-diff",
     "rubymaniac.vscode-paste-and-indent",
+    "igorsbitnev.error-gutters",
+    "visualstudioexptteam.vscodeintellicode",
     // latex
-    "james-yu.latex-workshop"
+    "James-Yu.latex-workshop"
   ]
 }

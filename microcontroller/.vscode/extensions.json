@@ -16,6 +16,7 @@
     "rubymaniac.vscode-paste-and-indent",
     "igorsbitnev.error-gutters",
     "ryanluker.vscode-coverage-gutters",
+    "visualstudioexptteam.vscodeintellicode",
     // micocontroler extensions
     "platformio.platformio-ide",
   ]
