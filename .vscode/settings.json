@@ -63,7 +63,7 @@
   "latex-workshop.intellisense.package.enabled": true,
   "latex-workshop.intellisense.unimathsymbols.enabled": true,
   "latex-workshop.synctex.synctexjs.enabled": true,
-  "latex-workshop.latexindent.args": [ "-c", "%DIR%/", "%TMPFILE%", "-y=defaultIndent:'\t'" ],
+  "latex-workshop.latexindent.args": [ "-c", "%DIR%/", "%TMPFILE%", "-y=defaultIndent: '\t'" ],
   "latex-workshop.latex.recipes": [
     {
       "name": "latexmk",

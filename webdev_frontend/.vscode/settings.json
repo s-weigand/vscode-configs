@@ -36,6 +36,7 @@
       {
         "scope": [
           //following will be excluded from italics (My theme (Monokai dark) has some defaults I don't want to be in italics)
+          "storage.type.function.arrow.ts",
           "invalid",
           "comment",
           "variable.parameter.url.css",
