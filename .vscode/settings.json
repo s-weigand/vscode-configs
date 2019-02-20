@@ -59,26 +59,8 @@
       }
     ]
   },
-  "latex-workshop.chktex.enabled": true,
-  "latex-workshop.intellisense.package.enabled": true,
-  "latex-workshop.intellisense.unimathsymbols.enabled": true,
-  "latex-workshop.synctex.synctexjs.enabled": true,
-  "latex-workshop.latexindent.args": [ "-c", "%DIR%/", "%TMPFILE%", "-y=defaultIndent: '\t'" ],
-  "latex-workshop.latex.recipes": [
-    {
-      "name": "latexmk",
-      "tools": [
-        "latexmk"
-      ]
-    },
-    {
-      "name": "pdflatex -> biber -> pdflatex*2",
-      "tools": [
-        "pdflatex",
-        "biber",
-        "pdflatex",
-        "pdflatex"
-      ]
-    }
-  ],
+  "pydocs.style": "numpy",
+  "python.linting.pylintEnabled": true,
+  "python.pythonPath": "C:\\Anaconda3\\envs\\work_tracker\\python.exe",
+  "python.formatting.provider": "black",
 }

@@ -5,7 +5,7 @@
     // general editor style
     "eamodio.gitlens",
     "robertohuertasm.vscode-icons",
-    "gerane.theme-flatlandmonokai",
+    "lei.theme-chromodynamics",
     "editorconfig.editorconfig",
     "CoenraadS.bracket-pair-colorizer",
     "emilast.LogFileHighlighter",
@@ -20,5 +20,6 @@
     // Python speciffic
     "donjayamanne.python-extension-pack",
     "azaugg.vscode-python-docstring",
+    "littlefoxteam.vscode-python-test-adapter",
   ]
 }

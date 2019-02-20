@@ -2,10 +2,14 @@
 # Bash Menu Script Example
 
 PS3='Select a project type: '
-options=("LaTeX" "Microcontroler" "WebDev-Frontend" "Quit")
+options=("Python" "LaTeX" "Microcontroler" "WebDev-Frontend" "Quit")
 select opt in "${options[@]}"
 do
     case $opt in
+        "Python")
+            code --extensions-dir "./python/extensions"
+            break
+            ;;
         "LaTeX")
             code --extensions-dir "./latex/extensions"
             break
