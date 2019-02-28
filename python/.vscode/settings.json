@@ -80,4 +80,13 @@
   "gulp.autoDetect": "off",
   "npm.autoDetect": "off",
   "coverage-gutters.ignoredPathGlobs": "**/{node_modules,venv,vendor,.tox,.pytest_cache,__pycache__}/**",
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#4482B4",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#4482B4",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#4482B4",
+    "titleBar.inactiveForeground": "#e7e7e7"
+  }
 }
