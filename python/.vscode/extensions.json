@@ -21,5 +21,7 @@
     "donjayamanne.python-extension-pack",
     "azaugg.vscode-python-docstring",
     "littlefoxteam.vscode-python-test-adapter",
+    // html, js, ts, css, sass formater
+    "esbenp.prettier-vscode",
   ]
 }
