@@ -1,2 +1,4 @@
 **/extensions
 del_later/
+.vscode/settings.json
+.vscode/extensions.json
