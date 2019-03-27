@@ -52,7 +52,8 @@
           "keyword.other.unit.px.css",
           "constant.numeric.decimal.js",
           "constant.numeric.json",
-          "entity.name.type.class.js"
+          "entity.name.type.class.js",
+          "keyword.key.toml"
         ],
         "settings": {
           "fontStyle": ""
