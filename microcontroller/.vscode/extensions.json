@@ -4,7 +4,7 @@
   "recommendations": [
     // general editor style
     "eamodio.gitlens",
-    "robertohuertasm.vscode-icons",
+    "vscode-icons-team.vscode-icons",
     "gerane.theme-flatlandmonokai",
     "editorconfig.editorconfig",
     "CoenraadS.bracket-pair-colorizer",
