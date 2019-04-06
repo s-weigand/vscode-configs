@@ -23,6 +23,9 @@
     "littlefoxteam.vscode-python-test-adapter",
     "bungcip.better-toml",
     "njpwerner.autodocstring",
+    // Docs
+    "lextudio.restructuredtext",
+    "searking.preview-vscode",
     // html, js, ts, css, sass formater
     "esbenp.prettier-vscode",
   ]
