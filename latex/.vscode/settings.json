@@ -63,22 +63,20 @@
   "latex-workshop.intellisense.package.enabled": true,
   "latex-workshop.intellisense.unimathsymbols.enabled": true,
   "latex-workshop.synctex.synctexjs.enabled": true,
-  "latex-workshop.latexindent.args": [ "-c", "%DIR%/", "%TMPFILE%", "-y=defaultIndent: '\t'" ],
+  "latex-workshop.latexindent.args": [
+    "-c",
+    "%DIR%/",
+    "%TMPFILE%",
+    "-y=defaultIndent: '\t'"
+  ],
   "latex-workshop.latex.recipes": [
     {
       "name": "latexmk",
-      "tools": [
-        "latexmk"
-      ]
+      "tools": ["latexmk"]
     },
     {
       "name": "pdflatex -> biber -> pdflatex*2",
-      "tools": [
-        "pdflatex",
-        "biber",
-        "pdflatex",
-        "pdflatex"
-      ]
+      "tools": ["pdflatex", "biber", "pdflatex", "pdflatex"]
     }
   ],
   "workbench.colorCustomizations": {
@@ -89,5 +87,22 @@
     "titleBar.activeForeground": "#e7e7e7",
     "titleBar.inactiveBackground": "#8B8B3A",
     "titleBar.inactiveForeground": "#e7e7e7"
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/*.bbl": true,
+    "**/*.toc": true,
+    "**/*.aux": true,
+    "**/*.blg": true,
+    "**/*.fls": true,
+    "**/*.out": true,
+    "**/*.synctex.gz": true,
+    "**/*.synctex": true,
+    "**/*.fdb_latexmk": true,
+    "**/*.dvi": true
   }
 }

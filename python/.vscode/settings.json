@@ -73,7 +73,7 @@
     "--cov-report",
     "xml:cov.xml",
     "--cov-config",
-    ".coveragerc",
+    ".coveragerc"
   ],
   "typescript.tsc.autoDetect": "off",
   "grunt.autoDetect": "off",
@@ -90,5 +90,20 @@
     "titleBar.inactiveBackground": "#4482B4",
     "titleBar.inactiveForeground": "#e7e7e7"
   },
-  "autoDocstring.docstringFormat": "numpy"
+  "autoDocstring.docstringFormat": "numpy",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/*.egg-info": true,
+    "**/.pytest_cache": true,
+    "**/.tox": true,
+    "**/.eggs": true,
+    "**/__pycache__": true,
+    "**/*.pyc": true,
+    "**/*.pyo": true,
+    "node_modules": true
+  }
 }
