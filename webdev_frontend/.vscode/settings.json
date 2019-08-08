@@ -68,4 +68,14 @@
   // webdev specific
   "color-highlight.markerType": "outline",
   "html.format.indentInnerHtml": false,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "package-lock.json": true,
+    ".coverage": true,
+    "node_modules": true
+  }
 }
