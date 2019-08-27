@@ -77,5 +77,6 @@
     "package-lock.json": true,
     ".coverage": true,
     "node_modules": true
-  }
+  },
+  "editor.formatOnSave": true
 }

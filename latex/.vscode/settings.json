@@ -104,5 +104,6 @@
     "**/*.synctex": true,
     "**/*.fdb_latexmk": true,
     "**/*.dvi": true
-  }
+  },
+  "editor.formatOnSave": true
 }
