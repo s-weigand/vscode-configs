@@ -69,6 +69,7 @@
   "color-highlight.markerType": "outline",
   "html.format.indentInnerHtml": false,
   "files.exclude": {
+    "**.ipynb_checkpoints": true,
     "**/.git": true,
     "**/.svn": true,
     "**/.hg": true,

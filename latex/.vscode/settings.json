@@ -89,6 +89,7 @@
     "titleBar.inactiveForeground": "#e7e7e7"
   },
   "files.exclude": {
+    "**.ipynb_checkpoints": true,
     "**/.git": true,
     "**/.svn": true,
     "**/.hg": true,
