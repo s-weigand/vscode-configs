@@ -68,5 +68,8 @@
     "titleBar.inactiveBackground": "#00979C",
     "titleBar.inactiveForeground": "#e7e7e7"
   },
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "files.associations": {
+      "requirements_dev.txt": "pip-requirements"
+  }
 }

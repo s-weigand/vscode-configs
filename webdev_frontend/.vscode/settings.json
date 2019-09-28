@@ -79,5 +79,8 @@
     ".coverage": true,
     "node_modules": true
   },
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "files.associations": {
+      "requirements_dev.txt": "pip-requirements"
+  }
 }

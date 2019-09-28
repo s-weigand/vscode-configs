@@ -106,5 +106,8 @@
     "**/*.fdb_latexmk": true,
     "**/*.dvi": true
   },
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "files.associations": {
+      "requirements_dev.txt": "pip-requirements"
+  }
 }
