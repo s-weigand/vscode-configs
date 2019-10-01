@@ -92,7 +92,7 @@
   },
   "autoDocstring.docstringFormat": "numpy",
   "files.exclude": {
-    "**.ipynb_checkpoints": true,
+    "**/.ipynb_checkpoints": true,
     "**/.git": true,
     "**/.svn": true,
     "**/.hg": true,
