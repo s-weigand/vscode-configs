@@ -81,6 +81,6 @@
   },
   "editor.formatOnSave": true,
   "files.associations": {
-      "requirements_dev.txt": "pip-requirements"
+    "requirements_dev.txt": "pip-requirements"
   }
 }
