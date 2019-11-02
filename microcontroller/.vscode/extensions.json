@@ -7,7 +7,7 @@
     "vscode-icons-team.vscode-icons",
     "gerane.theme-flatlandmonokai",
     "editorconfig.editorconfig",
-    "CoenraadS.bracket-pair-colorizer",
+    "CoenraadS.bracket-pair-colorizer-2",
     "emilast.LogFileHighlighter",
     "timonwong.shellcheck",
     "oderwat.indent-rainbow",
@@ -20,6 +20,6 @@
     // Multi lingual spallchecker
     "streetsidesoftware.code-spell-checker",
     // micocontroler extensions
-    "platformio.platformio-ide",
+    "platformio.platformio-ide"
   ]
 }
