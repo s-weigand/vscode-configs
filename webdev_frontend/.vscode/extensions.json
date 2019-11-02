@@ -24,6 +24,7 @@
     // sass, scss
     "shinnn.stylelint",
     "mrmlnc.vscode-scss",
+    "syler.sass-indented",
     "pranaygp.vscode-css-peek",
     "Janne252.fontawesome-autocomplete",
     "anseki.vscode-color",
