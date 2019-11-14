@@ -30,6 +30,8 @@
     "searking.preview-vscode",
     // html, js, ts, css, sass formater
     "esbenp.prettier-vscode",
-    "ritwickdey.live-sass"
+    "ritwickdey.live-sass",
+    //github actions
+    "me-dutour-mathieu.vscode-github-actions"
   ]
 }

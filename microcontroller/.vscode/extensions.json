@@ -20,6 +20,8 @@
     // Multi lingual spallchecker
     "streetsidesoftware.code-spell-checker",
     // micocontroler extensions
-    "platformio.platformio-ide"
+    "platformio.platformio-ide",
+    //github actions
+    "me-dutour-mathieu.vscode-github-actions"
   ]
 }
