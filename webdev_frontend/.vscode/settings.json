@@ -48,7 +48,9 @@
           "keyword.other.unit.px.css",
           "constant.numeric.decimal.js",
           "constant.numeric.json",
-          "entity.name.type.class.js"
+          "entity.name.type.class.js",
+          "keyword.control.anchor.regexp",
+          "punctuation.definition.string.end.ts"
         ],
         "settings": {
           "fontStyle": ""
