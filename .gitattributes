@@ -1,0 +1,4 @@
+*	text=lf
+*.bat	text eol=crlf
+
+.vscode	symlink=file
