@@ -2,7 +2,7 @@
 # Bash Menu Script Example
 
 PS3='Select a project type: '
-options=("Python" "LaTeX" "Microcontroler" "WebDev-Frontend" "Quit")
+options=("Python" "LaTeX" "Microcontroler" "WebDev-Frontend" "WebDev-Fullstack" "Quit")
 select opt in "${options[@]}"
 do
     case $opt in
@@ -20,6 +20,10 @@ do
             ;;
         "WebDev-Frontend")
             code --extensions-dir "./webdev_frontend/extensions"
+            break
+            ;;
+        "WebDev-Fullstack")
+            code --extensions-dir "./webdev_full_stack/extensions"
             break
             ;;
         "Quit")

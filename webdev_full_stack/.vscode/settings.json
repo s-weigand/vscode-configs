@@ -36,22 +36,21 @@
       {
         "scope": [
           //following will be excluded from italics (My theme (Monokai dark) has some defaults I don't want to be in italics)
+          "storage.type.function.arrow.ts",
+          "storage.type.function.arrow.js",
           "invalid",
           "comment",
+          "variable.parameter.url.css",
           "support.type",
-          "keyword.other.definition.ini",
-          "variable.parameter.latex",
-          "support.class.latex",
-          "variable.parameter.definition.label.latex",
-          "support.class.math.latex",
-          "meta.function.environment.math.latex",
-          "support.class.math.block.environment.latex",
-          "support.class.math.block.tex",
+          "storage.type.function.arrow.tsx",
           "keyword.operator",
           "constant.numeric.css",
           "keyword.other.unit.px.css",
           "constant.numeric.decimal.js",
           "constant.numeric.json",
+          "entity.name.type.class.js",
+          "keyword.control.anchor.regexp",
+          "punctuation.definition.string.end.ts",
           "entity.name.type.class.js",
           "keyword.key.toml"
         ],
@@ -67,22 +66,21 @@
   "python.unitTest.unittestEnabled": false,
   "python.unitTest.pyTestEnabled": true,
   "python.unitTest.nosetestsEnabled": false,
-  "typescript.tsc.autoDetect": "off",
-  "grunt.autoDetect": "off",
-  "jake.autoDetect": "off",
-  "gulp.autoDetect": "off",
   "npm.autoDetect": "on",
   "coverage-gutters.ignoredPathGlobs": "**/{node_modules,venv,vendor,.tox,.pytest_cache,__pycache__}/**",
   "workbench.colorCustomizations": {
-    "activityBar.background": "#4482B4",
+    "activityBar.background": "#0D4B33",
     "activityBar.foreground": "#e7e7e7",
     "activityBar.inactiveForeground": "#e7e7e7",
-    "titleBar.activeBackground": "#4482B4",
+    "titleBar.activeBackground": "#0D4B33",
     "titleBar.activeForeground": "#e7e7e7",
-    "titleBar.inactiveBackground": "#4482B4",
+    "titleBar.inactiveBackground": "#0D4B33",
     "titleBar.inactiveForeground": "#e7e7e7"
   },
   "autoDocstring.docstringFormat": "numpy",
+  // webdev specific
+  "color-highlight.markerType": "outline",
+  "html.format.indentInnerHtml": false,
   "files.exclude": {
     "**/.ipynb_checkpoints": true,
     "**/.git": true,
@@ -90,19 +88,21 @@
     "**/.hg": true,
     "**/CVS": true,
     "**/.DS_Store": true,
+    "package-lock.json": true,
+    ".coverage": true,
+    "node_modules": true,
+    "package-lock.json": true,
     "**/*.egg-info": true,
     "**/.pytest_cache": true,
     "**/.tox": true,
     "**/.eggs": true,
     "**/__pycache__": true,
     "**/*.pyc": true,
-    "**/*.pyo": true,
-    "node_modules": true,
-    "package-lock.json": true,
-    ".coverage": true
+    "**/*.pyo": true
   },
   "editor.formatOnSave": true,
   "files.associations": {
     "requirements_dev.txt": "pip-requirements"
-  }
+  },
+  "sass.format.enabled": false
 }
