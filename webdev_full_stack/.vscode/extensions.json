@@ -23,7 +23,7 @@
     // doc generation mainly
     "lextudio.restructuredtext",
     // sass, scss
-    "thibaudcolas.stylelint",
+    "stylelint.vscode-stylelint",
     "mrmlnc.vscode-scss",
     "syler.sass-indented",
     "pranaygp.vscode-css-peek",
@@ -55,6 +55,6 @@
     "azaugg.vscode-python-docstring",
     "littlefoxteam.vscode-python-test-adapter",
     "bungcip.better-toml",
-    "njpwerner.autodocstring",
+    "njpwerner.autodocstring"
   ]
 }

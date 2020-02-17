@@ -23,7 +23,7 @@
     // doc generation mainly
     "lextudio.restructuredtext",
     // sass, scss
-    "thibaudcolas.stylelint",
+    "stylelint.vscode-stylelint",
     "mrmlnc.vscode-scss",
     "syler.sass-indented",
     "pranaygp.vscode-css-peek",
