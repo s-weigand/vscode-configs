@@ -69,6 +69,10 @@
     "titleBar.inactiveForeground": "#e7e7e7"
   },
   // webdev specific
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "django-html": "html"
+  },
   "color-highlight.markerType": "outline",
   "html.format.indentInnerHtml": false,
   "files.exclude": {

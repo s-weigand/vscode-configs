@@ -61,6 +61,10 @@
       }
     ]
   },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "django-html": "html"
+  },
   "pydocs.style": "numpy",
   "python.linting.pylintEnabled": true,
   "python.formatting.provider": "black",

@@ -80,6 +80,10 @@
   },
   "autoDocstring.docstringFormat": "numpy",
   // webdev specific
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "django-html": "html"
+  },
   "color-highlight.markerType": "outline",
   "html.format.indentInnerHtml": false,
   "files.exclude": {
@@ -92,7 +96,6 @@
     "package-lock.json": true,
     ".coverage": true,
     "node_modules": true,
-    "package-lock.json": true,
     "**/*.egg-info": true,
     "**/.pytest_cache": true,
     "**/.tox": true,
