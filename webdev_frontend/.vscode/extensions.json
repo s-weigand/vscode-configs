@@ -47,8 +47,6 @@
     "wallabyjs.quokka-vscode",
     // dev tools
     "msjsdiag.debugger-for-chrome",
-    "ritwickdey.liveserver",
-    //github actions
-    "me-dutour-mathieu.vscode-github-actions"
+    "ritwickdey.liveserver"
   ]
 }
