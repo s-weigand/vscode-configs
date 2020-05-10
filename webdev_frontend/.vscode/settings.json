@@ -73,6 +73,7 @@
     "javascript": "javascriptreact",
     "django-html": "html"
   },
+  "npm.autoDetect": "on",
   "color-highlight.markerType": "outline",
   "html.format.indentInnerHtml": false,
   "files.exclude": {
