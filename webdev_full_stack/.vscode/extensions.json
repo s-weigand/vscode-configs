@@ -50,7 +50,6 @@
     "ritwickdey.liveserver",
     // Python speciffic
     "donjayamanne.python-extension-pack",
-    "azaugg.vscode-python-docstring",
     "littlefoxteam.vscode-python-test-adapter",
     "bungcip.better-toml",
     "njpwerner.autodocstring"
