@@ -52,6 +52,7 @@
     "donjayamanne.python-extension-pack",
     "littlefoxteam.vscode-python-test-adapter",
     "bungcip.better-toml",
-    "njpwerner.autodocstring"
+    "njpwerner.autodocstring",
+    "ms-python.vscode-pylance"
   ]
 }

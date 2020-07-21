@@ -108,5 +108,8 @@
   "files.associations": {
     "requirements_dev.txt": "pip-requirements"
   },
-  "sass.format.enabled": false
+  "sass.format.enabled": false,
+  "python.languageServer": "Pylance",
+  "python.analysis.diagnosticMode": "workspace",
+  "python.analysis.typeCheckingMode": "basic"
 }
