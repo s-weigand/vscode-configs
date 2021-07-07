@@ -18,6 +18,10 @@
     "ryanluker.vscode-coverage-gutters",
     "visualstudioexptteam.vscodeintellicode",
     "rssowl.copy-relative-path-posix",
+    "hbenl.vscode-test-explorer",
+    "techer.open-in-browser",
+    "bierner.markdown-emoji",
+    "simonsiefke.svg-preview",
     // Multi lingual spallchecker
     "streetsidesoftware.code-spell-checker",
     // Python speciffic
@@ -26,9 +30,13 @@
     "bungcip.better-toml",
     "njpwerner.autodocstring",
     "ms-python.vscode-pylance",
+    "nickmillerdev.pytest-fixtures",
+    "magicstack.magicpython",
+    "sourcery.sourcery",
     // Docs
     "lextudio.restructuredtext",
     "searking.preview-vscode",
+    "executablebookproject.myst-highlight",
     // html, js, ts, css, sass formater
     "esbenp.prettier-vscode",
     "ritwickdey.live-sass"
