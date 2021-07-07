@@ -1,0 +1,73 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Current file",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "PyTest",
+      "type": "python",
+      "request": "launch",
+      "stopOnEntry": false,
+      "python": "${command:python.interpreterPath}",
+      "module": "pytest",
+      "args": ["-sv", "${file}"],
+      "cwd": "${workspaceRoot}",
+      "env": {},
+      "debugOptions": [
+        "WaitOnAbnormalExit",
+        "WaitOnNormalExit",
+        "RedirectOutput"
+      ]
+    },
+    {
+      "name": "PyTest (dependencies)",
+      "type": "python",
+      "request": "launch",
+      "justMyCode": false,
+      "stopOnEntry": false,
+      "python": "${command:python.interpreterPath}",
+      "module": "pytest",
+      "args": ["-sv", "${file}"],
+      "cwd": "${workspaceRoot}",
+      "env": {},
+      "debugOptions": [
+        "WaitOnAbnormalExit",
+        "WaitOnNormalExit",
+        "RedirectOutput"
+      ]
+    },
+    {
+      "name": "Test Explorer",
+      "type": "python",
+      "request": "test",
+      "console": "integratedTerminal",
+      "stopOnEntry": true,
+      "debugOptions": [
+        "WaitOnAbnormalExit",
+        "WaitOnNormalExit",
+        "RedirectOutput"
+      ]
+    },
+    {
+      "name": "Test Explorer (dependencies)",
+      "type": "python",
+      "request": "test",
+      "console": "integratedTerminal",
+      "justMyCode": false,
+      "stopOnEntry": true,
+      "debugOptions": [
+        "WaitOnAbnormalExit",
+        "WaitOnNormalExit",
+        "RedirectOutput"
+      ]
+    }
+  ]
+}
