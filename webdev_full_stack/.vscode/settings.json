@@ -1,5 +1,17 @@
 {
-  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell (Anaconda)": {
+      "source": "PowerShell",
+      "args": [
+        "-ExecutionPolicy",
+        "ByPass",
+        "-NoExit",
+        "-Command",
+        "& 'C:\\Anaconda3\\shell\\condabin\\conda-hook.ps1' ; conda activate 'C:\\Anaconda3'"
+      ]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell (Anaconda)",
   "editor.renderWhitespace": "all",
   "files.autoSave": "onFocusChange",
   "files.eol": "\n",
