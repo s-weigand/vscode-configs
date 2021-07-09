@@ -12,6 +12,7 @@
     }
   },
   "terminal.integrated.defaultProfile.windows": "PowerShell (Anaconda)",
+  "window.title": "${rootName}${separator}${dirty}${activeEditorShort}${separator}${appName}",
   "editor.renderWhitespace": "all",
   "files.autoSave": "onFocusChange",
   "files.eol": "\n",
