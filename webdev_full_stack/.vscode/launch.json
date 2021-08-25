@@ -18,7 +18,7 @@
       "stopOnEntry": false,
       "python": "${command:python.interpreterPath}",
       "module": "pytest",
-      "args": ["-sv", "${file}"],
+      "args": ["-c", "not_a_file", "-sv", "${file}"],
       "cwd": "${workspaceRoot}",
       "env": {},
       "debugOptions": [
@@ -35,7 +35,7 @@
       "stopOnEntry": false,
       "python": "${command:python.interpreterPath}",
       "module": "pytest",
-      "args": ["-sv", "${file}"],
+      "args": ["-c", "not_a_file", "-sv", "${file}"],
       "cwd": "${workspaceRoot}",
       "env": {},
       "debugOptions": [
