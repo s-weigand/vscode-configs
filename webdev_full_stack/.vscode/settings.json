@@ -22,6 +22,7 @@
   "workbench.iconTheme": "vscode-icons",
   "editor.fontFamily": "'Firicico', 'Fira Code', Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true,
+  "editor.bracketPairColorization.enabled": true,
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
