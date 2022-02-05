@@ -24,6 +24,17 @@
   "editor.fontLigatures": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.tokenColorCustomizations": {
+    "[Chromodynamics Fixed]": {
+      "textMateRules": [
+        {
+          "name": "meta.function-call.generic.python",
+          "scope": "meta.function-call.generic.python",
+          "settings": {
+            "foreground": "#77c0ff"
+          }
+        }
+      ]
+    },
     "textMateRules": [
       {
         "scope": [
