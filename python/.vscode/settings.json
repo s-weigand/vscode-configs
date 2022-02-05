@@ -101,6 +101,7 @@
     "titleBar.inactiveForeground": "#e7e7e7"
   },
   "autoDocstring.docstringFormat": "numpy",
+  "autoDocstring.customTemplatePath": "./.vscode/autoDocstringTemplates.mustache",
   "files.exclude": {
     "**/.ipynb_checkpoints": true,
     "**/.git": true,

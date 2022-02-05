@@ -93,6 +93,7 @@
     "titleBar.inactiveForeground": "#e7e7e7"
   },
   "autoDocstring.docstringFormat": "numpy",
+  "autoDocstring.customTemplatePath": "./.vscode/autoDocstringTemplates.mustache",
   // webdev specific
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
