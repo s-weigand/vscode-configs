@@ -88,6 +88,7 @@
   },
   "pydocs.style": "numpy",
   "python.linting.pylintEnabled": true,
+  "python.linting.pylintArgs": ["--disable=C0111,E0611"],
   "python.formatting.provider": "black",
   "python.unitTest.unittestEnabled": false,
   "python.unitTest.pyTestEnabled": true,
