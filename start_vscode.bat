@@ -8,6 +8,7 @@ echo 2) LaTeX
 echo 3) Microcontroler
 echo 4) WebDev-Frontend
 echo 5) WebDev-Fullstack
+echo 6) c++
 echo -
 set /p op=Type option:
 if "%op%"=="1" goto python
@@ -15,6 +16,7 @@ if "%op%"=="2" goto latex
 if "%op%"=="3" goto micro
 if "%op%"=="4" goto webdev
 if "%op%"=="5" goto fullstack
+if "%op%"=="6" goto cpp
 
 echo Please Pick a project type:
 goto begin
@@ -38,6 +40,10 @@ goto end
 
 :fullstack
 code --extensions-dir "%~dp0\webdev_full_stack\extensions"
+goto end
+
+:cpp
+code --extensions-dir "%~dp0\cpp\extensions"
 goto end
 
 

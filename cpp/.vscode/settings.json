@@ -1,0 +1,141 @@
+{
+  "terminal.integrated.profiles.windows": {
+    "PowerShell (Anaconda)": {
+      "source": "PowerShell",
+      "args": [
+        "-ExecutionPolicy",
+        "ByPass",
+        "-NoExit",
+        "-Command",
+        "& 'C:\\Anaconda3\\shell\\condabin\\conda-hook.ps1' ; conda activate 'C:\\Anaconda3'"
+      ]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell (Anaconda)",
+  "window.title": "${rootName}${separator}${dirty}${activeEditorShort}${separator}${appName}",
+  "editor.renderWhitespace": "all",
+  "files.autoSave": "onFocusChange",
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "workbench.colorTheme": "Chromodynamics Fixed",
+  "workbench.iconTheme": "vscode-icons",
+  "editor.fontFamily": "'Firicico', 'Fira Code', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.tokenColorCustomizations": {
+    "[Chromodynamics Fixed]": {
+      "textMateRules": [
+        {
+          "name": "meta.function-call.generic.python",
+          "scope": "meta.function-call.generic.python",
+          "settings": {
+            "foreground": "#77c0ff"
+          }
+        }
+      ]
+    },
+    "textMateRules": [
+      {
+        "scope": [
+          //following will be in italics (=Pacifico)
+          // "entity.name.type.class", //class names
+          "keyword", //import, export, return…
+          //"support.class.builtin.js", //String, Number, Boolean…, this, super
+          "storage.modifier", //static keyword
+          "storage.type.class.js", //class keyword
+          "storage.type.function.js", // function keyword
+          "storage.type.js", // Variable declarations
+          "keyword.control.import.js", // Imports
+          "keyword.control.from.js", // From-Keyword
+          //"entity.name.type.js", // new … Expression
+          "keyword.control.flow.js", // await
+          "keyword.control.conditional.js", // if
+          "keyword.control.loop.js", // for
+          "keyword.operator.new.js" // new
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": [
+          //following will be excluded from italics (My theme (Monokai dark) has some defaults I don't want to be in italics)
+          "invalid",
+          "comment",
+          "support.type",
+          "keyword.other.definition.ini",
+          "variable.parameter.latex",
+          "support.class.latex",
+          "variable.parameter.definition.label.latex",
+          "support.class.math.latex",
+          "meta.function.environment.math.latex",
+          "support.class.math.block.environment.latex",
+          "support.class.math.block.tex",
+          "keyword.operator",
+          "constant.numeric.css",
+          "keyword.other.unit.px.css",
+          "constant.numeric.decimal.js",
+          "constant.numeric.json",
+          "entity.name.type.class.js",
+          "keyword.key.toml"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "django-html": "html"
+  },
+  "pydocs.style": "numpy",
+  "python.linting.pylintEnabled": true,
+  "python.formatting.provider": "black",
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "python.testing.nosetestsEnabled": false,
+  "typescript.tsc.autoDetect": "off",
+  "grunt.autoDetect": "off",
+  "jake.autoDetect": "off",
+  "gulp.autoDetect": "off",
+  "npm.autoDetect": "on",
+  "coverage-gutters.ignoredPathGlobs": "**/{node_modules,venv,vendor,.tox,.pytest_cache,__pycache__}/**",
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#810000",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#810000",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#810000",
+    "titleBar.inactiveForeground": "#e7e7e7"
+  },
+  "autoDocstring.docstringFormat": "numpy",
+  "autoDocstring.customTemplatePath": "./.vscode/autoDocstringTemplates.mustache",
+  "files.exclude": {
+    "**/.ipynb_checkpoints": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/*.egg-info": true,
+    "**/.pytest_cache": true,
+    "**/.tox": true,
+    "**/.eggs": true,
+    "**/__pycache__": true,
+    "**/*.pyc": true,
+    "**/*.pyo": true,
+    "node_modules": true,
+    "package-lock.json": true,
+    ".coverage": true
+  },
+  "editor.formatOnSave": true,
+  "files.associations": {
+    "requirements_dev.txt": "pip-requirements"
+  },
+  "python.languageServer": "Pylance",
+  "python.analysis.diagnosticMode": "workspace",
+  "python.analysis.typeCheckingMode": "basic"
+}
