@@ -138,5 +138,12 @@
   "sass.format.enabled": false,
   "python.languageServer": "Pylance",
   "python.analysis.diagnosticMode": "workspace",
-  "python.analysis.typeCheckingMode": "basic"
+  "python.analysis.typeCheckingMode": "basic",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  }
 }

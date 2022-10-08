@@ -64,6 +64,9 @@
     // Docs
     "lextudio.restructuredtext",
     "searking.preview-vscode",
-    "executablebookproject.myst-highlight"
+    "executablebookproject.myst-highlight",
+    // Python formatter
+    "ms-python.isort",
+    "ms-python.black-formatter"
   ]
 }
