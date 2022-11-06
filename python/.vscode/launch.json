@@ -8,7 +8,10 @@
       "name": "Python: Current file",
       "type": "python",
       "request": "launch",
+      "stopOnEntry": false,
+      "justMyCode": false,
       "program": "${file}",
+      "purpose": ["debug-in-terminal"],
       "console": "integratedTerminal"
     },
     {
@@ -16,58 +19,22 @@
       "type": "python",
       "request": "launch",
       "stopOnEntry": false,
+      "justMyCode": false,
+      "purpose": ["debug-in-terminal"],
+      "console": "integratedTerminal",
       "python": "${command:python.interpreterPath}",
       "module": "pytest",
-      "args": ["-c", "not_a_file", "-sv", "${file}"],
-      "cwd": "${workspaceRoot}",
-      "env": {},
-      "debugOptions": [
-        "WaitOnAbnormalExit",
-        "WaitOnNormalExit",
-        "RedirectOutput"
-      ]
+      "args": ["--override-ini", "addopts=''", "-sv", "${file}"]
     },
     {
-      "name": "PyTest (dependencies)",
+      "name": "Python: Debug Tests",
       "type": "python",
       "request": "launch",
-      "justMyCode": false,
-      "stopOnEntry": false,
-      "python": "${command:python.interpreterPath}",
-      "module": "pytest",
-      "args": ["-c", "not_a_file", "-sv", "${file}"],
-      "cwd": "${workspaceRoot}",
-      "env": {},
-      "debugOptions": [
-        "WaitOnAbnormalExit",
-        "WaitOnNormalExit",
-        "RedirectOutput"
-      ]
-    },
-    {
-      "name": "Test Explorer",
-      "type": "python",
-      "request": "test",
-      "console": "integratedTerminal",
-      "stopOnEntry": true,
-      "debugOptions": [
-        "WaitOnAbnormalExit",
-        "WaitOnNormalExit",
-        "RedirectOutput"
-      ]
-    },
-    {
-      "name": "Test Explorer (dependencies)",
-      "type": "python",
-      "request": "test",
+      "program": "${file}",
+      "purpose": ["debug-test"],
       "console": "integratedTerminal",
       "justMyCode": false,
-      "stopOnEntry": true,
-      "debugOptions": [
-        "WaitOnAbnormalExit",
-        "WaitOnNormalExit",
-        "RedirectOutput"
-      ]
+      "stopOnEntry": false
     }
   ]
 }
