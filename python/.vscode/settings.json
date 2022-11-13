@@ -98,6 +98,7 @@
   "python.testing.pytestEnabled": true,
   "python.testing.pytestArgs": ["--override-ini", "addopts=''"],
   "python.testing.nosetestsEnabled": false,
+  "jupyter.debugJustMyCode":false,
   "typescript.tsc.autoDetect": "off",
   "grunt.autoDetect": "off",
   "jake.autoDetect": "off",

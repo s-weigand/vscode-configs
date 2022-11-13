@@ -94,6 +94,7 @@
   "python.testing.pytestEnabled": true,
   "python.testing.pytestArgs": ["--override-ini", "addopts=''"],
   "python.unitTest.nosetestsEnabled": false,
+  "jupyter.debugJustMyCode":false,
   "npm.autoDetect": "on",
   "coverage-gutters.ignoredPathGlobs": "**/{node_modules,venv,vendor,.tox,.pytest_cache,__pycache__}/**",
   "workbench.colorCustomizations": {
