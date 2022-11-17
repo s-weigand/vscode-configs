@@ -24,7 +24,7 @@
       "console": "integratedTerminal",
       "python": "${command:python.interpreterPath}",
       "module": "pytest",
-      "args": ["--override-ini", "addopts=''", "-sv", "${file}"]
+      "args": ["${file}","--override-ini", "addopts=", "-sv"]
     },
     {
       "name": "Python: Debug Tests",
