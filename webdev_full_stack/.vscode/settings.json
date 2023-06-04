@@ -87,14 +87,12 @@
     ]
   },
   "pydocs.style": "numpy",
-  "python.linting.pylintEnabled": true,
-  "python.linting.pylintArgs": ["--disable=C0111,E0611"],
   "python.formatting.provider": "black",
   "python.unitTest.unittestEnabled": false,
   "python.testing.pytestEnabled": true,
   "python.testing.pytestArgs": ["--override-ini", "addopts=''"],
   "python.unitTest.nosetestsEnabled": false,
-  "jupyter.debugJustMyCode":false,
+  "jupyter.debugJustMyCode": false,
   "npm.autoDetect": "on",
   "coverage-gutters.ignoredPathGlobs": "**/{node_modules,venv,vendor,.tox,.pytest_cache,__pycache__}/**",
   "workbench.colorCustomizations": {
@@ -145,7 +143,9 @@
     "editor.defaultFormatter": "ms-python.black-formatter",
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
-      "source.organizeImports": true
+      "source.organizeImports": true,
+      "source.fixAll": false
     }
-  }
+  },
+  "ruff.organizeImports": false
 }
