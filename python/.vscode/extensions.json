@@ -21,12 +21,13 @@
     "techer.open-in-browser",
     "bierner.markdown-emoji",
     "simonsiefke.svg-preview",
+    "alefragnani.project-manager",
     // Multi lingual spallchecker
     "streetsidesoftware.code-spell-checker",
     // Python speciffic
     "donjayamanne.python-extension-pack",
     "littlefoxteam.vscode-python-test-adapter",
-    "bungcip.better-toml",
+    "tamasfe.even-better-toml",
     "njpwerner.autodocstring",
     "ms-python.vscode-pylance",
     "nickmillerdev.pytest-fixtures",
@@ -40,7 +41,6 @@
     "esbenp.prettier-vscode",
     "ritwickdey.live-sass",
     // Python formatter
-    "ms-python.isort",
-    "ms-python.black-formatter"
+    "charliermarsh.ruff"
   ]
 }

@@ -21,9 +21,10 @@
     "techer.open-in-browser",
     "bierner.markdown-emoji",
     "simonsiefke.svg-preview",
+    "alefragnani.project-manager",
     // Multi lingual spallchecker
     "streetsidesoftware.code-spell-checker",
     // c++ speciffic
-    "ms-vscode.cpptools-extension-pack",
+    "ms-vscode.cpptools-extension-pack"
   ]
 }
