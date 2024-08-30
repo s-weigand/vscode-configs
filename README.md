@@ -12,4 +12,14 @@ Since the [current master Firicico is broken](https://github.com/kosimst/Firicic
 
 ## Usage
 
+### Project settings
+
 Copy the `.vscode` folder from one of the subfolders to you project, run `start_vscode.bat`/`start_vscode.sh`, open your project folder and install all recommended extensions.
+
+### Keybindings
+
+Open the command pallet in vscode (`ctrl+shift+p`), type `keyboard` and select "Preferences: Open Keyboard Shortcuts (JSON)".
+![command pallet](screenshots/command-pallet.png)
+
+Copy the content of `keybindings.json` into your keybinding.
+Enjoy having consistent keybindings on windows and linux.

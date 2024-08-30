@@ -1,0 +1,25 @@
+// Override of key binding differences between windows and linux
+[
+  // Windows default keybindings
+  {
+    "key": "shift+alt+down",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+up",
+    "command": "editor.action.copyLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  // Linux default keybindings
+  {
+    "key": "ctrl+shift+down",
+    "command": "cursorColumnSelectDown",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+shift+up",
+    "command": "cursorColumnSelectUp",
+    "when": "textInputFocus"
+  }
+]
