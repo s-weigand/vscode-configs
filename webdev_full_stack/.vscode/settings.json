@@ -143,8 +143,8 @@
     "editor.defaultFormatter": "charliermarsh.ruff",
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
-      "source.organizeImports": true,
-      "source.fixAll": false
+      "source.organizeImports": "always",
+      "source.fixAll": "explicit"
     }
   },
   "ruff.organizeImports": true,
