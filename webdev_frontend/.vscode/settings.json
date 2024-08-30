@@ -1,5 +1,6 @@
 {
   "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "terminal.integrated.fontFamily": "'MesloLGS NF', 'Fira Code', Consolas, 'Courier New', monospace",
   "window.title": "${rootName}${separator}${dirty}${activeEditorShort}${separator}${appName}",
   "editor.renderWhitespace": "all",
   "files.autoSave": "onFocusChange",
