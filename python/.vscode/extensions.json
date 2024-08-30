@@ -38,7 +38,6 @@
     "executablebookproject.myst-highlight",
     // html, js, ts, css, sass formater
     "esbenp.prettier-vscode",
-    "ritwickdey.live-sass",
     // Python formatter
     "charliermarsh.ruff"
   ]
