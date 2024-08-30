@@ -112,5 +112,6 @@
   "files.associations": {
     "requirements_dev.txt": "pip-requirements"
   },
-  "python.formatting.blackArgs": ["--exclude \"tests/data\""]
+  "python.formatting.blackArgs": ["--exclude \"tests/data\""],
+  "explorer.copyRelativePathSeparator": "/"
 }

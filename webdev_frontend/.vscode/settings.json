@@ -93,5 +93,6 @@
   "files.associations": {
     "requirements_dev.txt": "pip-requirements"
   },
-  "sass.format.enabled": false
+  "sass.format.enabled": false,
+  "explorer.copyRelativePathSeparator": "/"
 }

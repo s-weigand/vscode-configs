@@ -73,5 +73,6 @@
   "editor.formatOnSave": true,
   "files.associations": {
     "requirements_dev.txt": "pip-requirements"
-  }
+  },
+  "explorer.copyRelativePathSeparator": "/"
 }

@@ -147,5 +147,6 @@
       "source.fixAll": false
     }
   },
-  "ruff.organizeImports": true
+  "ruff.organizeImports": true,
+  "explorer.copyRelativePathSeparator": "/"
 }
