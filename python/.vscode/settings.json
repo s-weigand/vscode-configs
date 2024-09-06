@@ -92,7 +92,7 @@
     "django-html": "html"
   },
   "pydocs.style": "numpy",
-  "python.formatting.provider": "black",
+  "python.formatting.provider": "ruff",
   "python.testing.unittestEnabled": false,
   "python.testing.pytestEnabled": true,
   "python.testing.pytestArgs": ["--override-ini", "addopts=''"],
